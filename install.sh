@@ -3,7 +3,7 @@ install_termux() {
     pkg upgrade
     pkg install git
     git clone https://github.com/DX4GREY/YouTube-To-MP3
-    cd FaAng-Toolkit
+    cd YouTube-To-MP3
     sh setup.sh
     cd ../
     rm -rf YouTube-To-MP3
